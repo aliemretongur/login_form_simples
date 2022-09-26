@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTO GALERİ</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 1340px;
+    margin: 30px auto;   
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.araba img{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    transition: all 800ms;
+}
+.araba:hover img{
+    filter: grayscale(0%);
+    /* filter: blur(0px); */
+    transform: scale(1.2) rotate(-10deg);
+}
+.araba .yazi{
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    bottom: -140px;
+    transition: all 1s;
+    z-index: 1;
+}
+.bgclr{
+    background-color: #777;
+    opacity: 0.5;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+p span{
+    color: yellow;
+}
+.araba:hover .yazi{
+    bottom: 0px;
+}
+@media screen and (max-width:700px) {
+
+.container{
+    width: 400px;
+}
+.araba1{
+    float: none;       
+}
+
+.araba:not(.araba:first-child){
+    margin: 30px 0px;
+}
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="araba">
+            <img src="car_photos/car1.jpg">
+            <div class="yazi">
+                <h2>car 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car2.jpg">
+            <div class="yazi">
+                <h2>car 2</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span>a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car3.jpg">
+            <div class="yazi">
+                <h2>car 3</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car4.jpg">
+            <div class="yazi">
+                <h2>car 4</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car5.jpg">
+            <div class="yazi">
+                <h2>car 5</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car6.jpg">
+            <div class="yazi">
+                <h2>car 6</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car7.jpg">
+            <div class="yazi">
+                <h2>car 7</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car8.jpg">
+            <div class="yazi">
+                <h2>car 8</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+        <div class="araba">
+            <img src="car_photos/car9.jpg">
+            <div class="yazi">
+                <h2>car 9</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Doloremque, voluptate quisquam temporibus nisi consectetur</span> a sit quas asperiores dicta? Dolore.</p>
+                <div class="bgclr"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
