@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+.left-box{
+    width: 400px;
+    height: 500px;
+    background-color: #ff85d7;
+    float: left;
+}
+.left-box h1{
+    font-weight: 500px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.social_media_icons{
+    width: 115px;
+    height: 25px;
+}
+.right-box{
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+.right-box h1{
+    font-weight: 500px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 30px;
+    text-align: center;
+}
+.text-box1, .text-box2{
+    width: 270px;
+    height: 28px;
+    border: 1.5px solid red;
+    border-radius: 4px;
+}
+.bxcntr{
+    text-align: center;
+}
+.further-left{
+    margin-left: 165px;
+    font-weight: bold;
+}
+.forgot-password{
+    margin-top: 5px;
+    margin-left: 322px;
+}
+.bn{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.login-box{
+    width: 270px;
+    background-color: blue;
+    height: 38px;
+    border: 0px;
+    margin-left: 165px;
+    margin-top: 40px;
+    border-radius: 4px;
+    color: white;
+    cursor:pointer;
+}
+.login-box:hover{
+    width: 270px;
+    height: 49px;
+    transition: 1s;
+    transition: all 1400ms;
+    transform: scale(1.1) 
+}
+
+.txt-fnsh{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.lst-txt{
+    margin-left: 166px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <h1>Welcome !</h1>
+            <div class="text-area" style="margin-left: 5px; margin-right: 5px;">
+                Lorem ipsum dolor sit amet, adipisicing elit. Placeat illum debitis, doloremque.
+            </div><br>
+            <div class="long-text-area" style="margin-left: 5px;  margin-right: 5px;">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quod consectetur beatae est assumenda minus ad nihil! Esse temporibus porro, ipsum fugit, alias atque a necessitatibus labore, provident harum culpa eveniet tenetur. Accusamus similique ut animi beatae sunt repellendus molestiae vel commodi, ratione quod omnis atque rem facere saepe totam.
+            </div>
+            <div class="social_media_icons">
+                <table>
+                    <tr>
+                        <td>
+                           <a href="#"> <img src="images/facebook.png" alt=""></a>
+                        </td>
+                        <td>
+                             <a href="#"><img src="images/twitter.png" alt=""></a>
+                        </td>
+                        <td>
+                             <a href="#"><img src="images/pinterest.png" alt=""></a>
+                        </td>
+                        <td>
+                             <a href="#"><img src="images/instagram.png" alt=""></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="right-box">
+            <h1>Log İn</h1>
+
+            <p class="further-left">Email</p>
+            <div class="bxcntr">
+                <input class="text-box1" type="email" placeholder="please enter your email adress">
+            </div>
+
+            <p class="further-left">Password</p>
+            <div class="bxcntr">
+                <input class="text-box2" type="password" placeholder="please enter your Password">
+            </div>
+
+            <div class="forgot-password">
+                <a class="bn" href="#">forgot password?</a>
+            </div>
+
+            <div>
+                <button class="login-box">Login</button>
+                <p class="lst-txt">Don't have an account? <a class="txt-fnsh" href="#">Register here</a></p>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
